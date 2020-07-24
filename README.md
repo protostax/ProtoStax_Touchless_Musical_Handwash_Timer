@@ -2,7 +2,8 @@
 
 Demo for ProtoStax Touchless Musical Handwash Timer 
 
-![ProtoStax Touchless Musical Handwash Timer](ProtoStax_Touchless_HandWash_Musical_Timer_2.gif)
+![ProtoStax Touchless Musical Handwash Timer](ProtoStax_Touchless_Musical_HandWash_Timer.gif)
+![ProtoStax Touchless Musical Handwash Timer](ProtoStax_Touchless_Musical_HandWash_Timer.jpg)
 
 
 ## Prerequisites
