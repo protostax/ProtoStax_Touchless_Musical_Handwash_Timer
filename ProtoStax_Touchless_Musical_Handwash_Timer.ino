@@ -170,7 +170,7 @@ Melody melodies[] = {
   {melody, MELODY_LENGTH(melody), 1250}, {melody3, MELODY_LENGTH(melody3), 1000}, {melody4, MELODY_LENGTH(melody4), 1000}
 };
 
-#define NUM_MELODIES(m) ((sizeof(m)/sizeof(m[0]))
+#define NUM_MELODIES(m) ((sizeof(m)/sizeof(m[0])))
 
 // TODO: Taking it further! 
 // These 4 melodies pretty much max out the Arduino Uno's memory, and don't leave enough SRAM for the I2C calls to the 7-segment display. 
@@ -224,7 +224,7 @@ void loop() {
     // initializeTimer1();
     countDown = 20;
     currentTime = millis();
-    melodyNum = (melodyNum+1)%(NUM_MELODIES(melodies));
+    melodyNum = (melodyNum+1) % (NUM_MELODIES(melodies));
   }
   if (startMusic) {
     // Pick the melody to play
